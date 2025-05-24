@@ -1,6 +1,6 @@
 # MartenEventSourcing
 
-A sample .NET Core project demonstrating **Event Sourcing** and **CQRS** patterns using [Marten](https://martendb.io/) on PostgreSQL.
+A sample .NET Core project demonstrating Event Sourcing with projections, using Marten on PostgreSQL
 
 ---
 
@@ -15,7 +15,6 @@ This approach provides a reliable audit log, enables temporal queries, and suppo
 ## Key Concepts
 
 - **Event Sourcing**: Instead of persisting the current state, every change to an entity is stored as an event. The system state is rebuilt by replaying these events.
-- **CQRS (Command Query Responsibility Segregation)**: Separation of read and write operations to optimize scalability and maintainability.
 - **Domain-Driven Design (DDD)**: The code is structured to model the domain, emphasizing business logic and entities.
 - **Marten**: Acts as both the document database and the event store, simplifying infrastructure by combining persistence and event sourcing in one tool.
 
