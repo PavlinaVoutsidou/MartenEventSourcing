@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenEventSourcing.API", "MartenEventSourcing.API\MartenEventSourcing.API.csproj", "{AC0DBC0B-7C92-4195-A4DA-0CBE5628D406}"
 EndProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartenEventSourcing.Tests", "MartenEventSourcing.Tests\MartenEventSourcing.Tests.csproj", "{79A3058B-9BA1-4BC2-8E71-E23AE4BAA4FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{3B38CDA1-B81B-42F0-B106-3E3E782FD6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B38CDA1-B81B-42F0-B106-3E3E782FD6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B38CDA1-B81B-42F0-B106-3E3E782FD6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A3058B-9BA1-4BC2-8E71-E23AE4BAA4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A3058B-9BA1-4BC2-8E71-E23AE4BAA4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A3058B-9BA1-4BC2-8E71-E23AE4BAA4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A3058B-9BA1-4BC2-8E71-E23AE4BAA4FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
